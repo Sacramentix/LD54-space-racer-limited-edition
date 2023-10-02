@@ -48,8 +48,7 @@ export async function resetGame() {
     reset();
     window.scrollTo({
         top: 0,
-        left: 0,
-        behavior: "instant"
+        left: 0
     });
     hasLose.value = false;
 }
