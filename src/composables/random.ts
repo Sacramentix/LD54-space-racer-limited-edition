@@ -36,7 +36,18 @@ function sfc32(seed:[number,number,number,number]) {
     }
 }
 
-export const seed = ref("limited space");
+const path = window.location.pathname.substring(1);
+
+export const seed = ref(path);
+
+if (seed.value=="") generateSharableSeed();
+
+export function generateSharableSeed() {
+    const s = (Math.random() + 1).toString(36).substring(9);
+    history.pushState({}, "", `/${s}`);
+    seed.value = s;
+}
+
 
 export function useSeededRandom() {
     const random = sfc32(cyrb128(seed.value));

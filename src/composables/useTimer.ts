@@ -10,7 +10,7 @@ export function useTimer() {
 
     const timer = computed(() => {
         if (startTimestamp.value == 0) return "00:00s";
-        return new Date(timestamp.value - startTimestamp.value).toISOString().slice(11,23);
+        return new Date(timestamp.value - startTimestamp.value).toISOString().slice(14,23);
     });
 
     function start() {

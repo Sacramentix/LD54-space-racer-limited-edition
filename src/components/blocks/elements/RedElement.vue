@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from "vue";
-import { hasLose } from "../../../composables/gameState";
+import { lose } from "../../../composables/gameState";
 
 const root = ref<HTMLElement|null>(null);
 
@@ -12,7 +12,7 @@ function onBlockTouch() {
     // console.log("block touch : ", window.getComputedStyle(root.value).backgroundColor);
     if (window.getComputedStyle(root.value).backgroundColor == "rgb(159, 19, 19)") {
         // console.log("lose : ");
-        hasLose.value = true;
+        lose("hitRedBlock");
     }
     requestAnimationFrame(onBlockTouch);
 }

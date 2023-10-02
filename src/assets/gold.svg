@@ -1,0 +1,49 @@
+<svg width="613.17" height="732.79" version="1.1" viewBox="0 0 162.23 193.88" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="gma">
+   <stop stop-color="#feed86" offset="0"/>
+   <stop stop-color="#d8b801" offset=".34781"/>
+   <stop stop-color="#8f6c01" offset=".82262"/>
+   <stop stop-color="#755701" offset="1"/>
+  </linearGradient>
+  <filter id="gmk" x="-.18811" y="-.10645" width="1.4093" height="1.2339" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,64,65)" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="2"/>
+   <feOffset dx="1" dy="1" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+  <linearGradient id="gmj" x1="74.027" x2="147.83" y1="181.98" y2="231.39" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#da374a" offset="0"/>
+   <stop stop-color="#65141f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="gmi" x1="50.882" x2="159.29" y1="67.28" y2="162.39" gradientUnits="userSpaceOnUse" xlink:href="#gma"/>
+  <linearGradient id="gmh" x1="140.06" x2="167.89" y1="144.13" y2="167.96" gradientUnits="userSpaceOnUse" xlink:href="#gma"/>
+  <linearGradient id="gmg" x1="145.52" x2="187.15" y1="110.05" y2="101.16" gradientUnits="userSpaceOnUse" xlink:href="#gma"/>
+  <linearGradient id="gmf" x1="121.98" x2="131.84" y1="35.047" y2="89.882" gradientUnits="userSpaceOnUse" xlink:href="#gma"/>
+  <linearGradient id="gme" x1="53.009" x2="88.587" y1="47.875" y2="100.04" gradientUnits="userSpaceOnUse" xlink:href="#gma"/>
+  <linearGradient id="gmd" x1="107.9" x2="110.66" y1="176.79" y2="197.69" gradientUnits="userSpaceOnUse" xlink:href="#gma"/>
+  <linearGradient id="gmc" x1="68.317" x2="44.843" y1="154.33" y2="175.67" gradientUnits="userSpaceOnUse" xlink:href="#gma"/>
+  <linearGradient id="gmb" x1="28.204" x2="74.039" y1="93.559" y2="120.24" gradientUnits="userSpaceOnUse" xlink:href="#gma"/>
+ </defs>
+ <g transform="translate(-28.204 -38.608)">
+  <g fill="#45e4f2" fill-opacity=".41197" stroke="#fff" stroke-opacity=".049296" stroke-width=".52917" aria-label="1 ">
+   <path d="m111.56 139.43q0 1.9982 0.2067 3.0317 0.24116 0.99908 0.79237 1.6536 0.58567 0.62012 1.6536 0.99908 1.068 0.34451 2.6872 0.55122 1.6192 0.17225 4.2719 0.24116v2.5149h-25.459v-2.5149q3.8241-0.17226 5.4433-0.44787 1.6536-0.31006 2.5149-0.89572 0.86128-0.58567 1.2402-1.6536 0.41341-1.068 0.41341-3.4796v-27.94q0-1.378-0.48231-1.9982-0.48232-0.65457-1.4125-0.65457-1.1024 0-3.135 1.1369t-5.0298 3.135l-1.5158-2.6527 16.123-9.6118h1.8948q-0.2067 3.3073-0.2067 9.164z" fill="#fff" fill-opacity="1" filter="url(#k)"/>
+  </g>
+  <path d="m44.085 70.611 64.56-31.637 64.988 30.75 16.478 69.982-44.44 56.516-71.894 0.4924-45.21-55.902z" fill="none" stroke="#fff" stroke-opacity=".049296" stroke-width=".52917"/>
+  <path d="m73.777 196.71 18.344-0.12158-19.844 1.8523-8.561-14.204z" fill="#abc6c8"/>
+  <path d="m145.67 196.22-18.337 0.12559 19.838 1.6051 8.3949-14.315z" fill="#abc6c8"/>
+  <path d="m72.276 198.44 19.844-1.8523 35.213-0.24523 19.838 1.6051 0.65849 33.437-36.576-8.8028-38.978 9.6412z" fill="url(#gmj)"/>
+  <path d="m72.276 198.44v33.783l38.978-9.6412 36.576 8.8028-0.65849-33.437" fill="none" stroke="#abc6c8" stroke-linecap="round" stroke-linejoin="round" stroke-width=".52917"/>
+  <path d="m53.619 79.302 55.103-27.003 55.468 26.245 14.064 59.73-37.93 48.237-61.362 0.42027-38.587-47.713z" fill="url(#gmi)"/>
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width=".52917">
+   <path d="m44.085 70.611 9.5344 8.6907 55.103-27.003-0.0772-13.325z" fill="url(#gme)" stroke="url(#gme)"/>
+   <path d="m53.619 79.302-9.5344-8.6907-15.518 70.201 11.808-1.5926z" fill="url(#gmb)" stroke="url(#gmb)"/>
+   <path d="m28.567 140.81 11.808-1.5926 38.587 47.713-5.1849 9.7814z" fill="url(#gmc)" stroke="url(#gmc)"/>
+   <path d="m78.962 186.93 61.362-0.42027 5.3465 9.7093-71.894 0.4924z" fill="url(#gmd)" stroke="url(#gmd)"/>
+   <path d="m140.32 186.51 37.93-48.237 11.856 1.4306-44.44 56.516z" fill="url(#gmh)" stroke="url(#gmh)"/>
+   <path d="m178.25 138.28 11.856 1.4306-16.478-69.982-9.4425 8.8207z" fill="url(#gmg)" stroke="url(#gmg)"/>
+   <path d="m108.64 38.974 64.988 30.75-9.4425 8.8207-55.468-26.245z" fill="url(#gmf)" stroke="url(#gmf)"/>
+  </g>
+ </g>
+</svg>

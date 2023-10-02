@@ -1,0 +1,39 @@
+<svg width="612.72" height="732.52" version="1.1" viewBox="0 0 162.12 193.81" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="sma">
+   <stop stop-color="#dcebf1" offset="0"/>
+   <stop stop-color="#b7d2e3" offset=".34781"/>
+   <stop stop-color="#748081" offset=".82262"/>
+   <stop stop-color="#5f6869" offset="1"/>
+  </linearGradient>
+  <linearGradient id="smj" x1="74.027" x2="147.83" y1="181.98" y2="231.39" gradientTransform="translate(-162.19 -.073083)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#da374a" offset="0"/>
+   <stop stop-color="#65141f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="smi" x1="50.882" x2="159.29" y1="67.28" y2="162.39" gradientTransform="translate(-162.19 -.07308)" gradientUnits="userSpaceOnUse" xlink:href="#sma"/>
+  <linearGradient id="smh" x1="140.06" x2="167.89" y1="144.13" y2="167.96" gradientTransform="translate(-162.19 -.073083)" gradientUnits="userSpaceOnUse" xlink:href="#sma"/>
+  <linearGradient id="smg" x1="145.52" x2="187.15" y1="110.05" y2="101.16" gradientTransform="translate(-162.19 -.073083)" gradientUnits="userSpaceOnUse" xlink:href="#sma"/>
+  <linearGradient id="smf" x1="121.98" x2="131.84" y1="35.047" y2="89.882" gradientTransform="translate(-162.19 -.073083)" gradientUnits="userSpaceOnUse" xlink:href="#sma"/>
+  <linearGradient id="sme" x1="53.009" x2="88.587" y1="47.875" y2="100.04" gradientTransform="translate(-162.19 -.073083)" gradientUnits="userSpaceOnUse" xlink:href="#sma"/>
+  <linearGradient id="smd" x1="107.9" x2="110.66" y1="176.79" y2="197.69" gradientTransform="translate(-162.19 -.073083)" gradientUnits="userSpaceOnUse" xlink:href="#sma"/>
+  <linearGradient id="smc" x1="68.317" x2="44.843" y1="154.33" y2="175.67" gradientTransform="translate(-162.19 -.073083)" gradientUnits="userSpaceOnUse" xlink:href="#sma"/>
+  <linearGradient id="smb" x1="28.204" x2="74.039" y1="93.559" y2="120.24" gradientTransform="translate(-162.19 -.073083)" gradientUnits="userSpaceOnUse" xlink:href="#sma"/>
+ </defs>
+ <g transform="translate(133.91 -38.608)">
+  <path d="m-118.11 70.538 64.56-31.637 64.988 30.75 16.478 69.982-44.44 56.516-71.894 0.4924-45.21-55.902z" fill="none" stroke="#fff" stroke-opacity=".049296" stroke-width=".52917"/>
+  <path d="m-88.417 196.64 18.344-0.12158-19.844 1.8523-8.561-14.204z" fill="#abc6c8"/>
+  <path d="m-16.523 196.15-18.337 0.12559 19.838 1.6051 8.3949-14.315z" fill="#abc6c8"/>
+  <path d="m-89.917 198.37 19.844-1.8523 35.213-0.24523 19.838 1.6051 0.65849 33.437-36.576-8.8028-38.978 9.6412z" fill="url(#smj)"/>
+  <path d="m-89.917 198.37v33.783l38.978-9.6412 36.576 8.8028-0.65849-33.437" fill="none" stroke="#abc6c8" stroke-linecap="round" stroke-linejoin="round" stroke-width=".52917"/>
+  <path d="m-108.57 79.229 55.103-27.003 55.468 26.245 14.064 59.73-37.93 48.237-61.362 0.42027-38.587-47.713z" fill="url(#smi)"/>
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width=".52917">
+   <path d="m-118.11 70.538 9.5344 8.6907 55.103-27.003-0.0772-13.325z" fill="url(#sme)" stroke="url(#sme)"/>
+   <path d="m-108.57 79.229-9.5344-8.6907-15.518 70.201 11.808-1.5926z" fill="url(#smb)" stroke="url(#smb)"/>
+   <path d="m-133.63 140.74 11.808-1.5926 38.587 47.713-5.1849 9.7814z" fill="url(#smc)" stroke="url(#smc)"/>
+   <path d="m-83.232 186.86 61.362-0.42027 5.3465 9.7093-71.894 0.4924z" fill="url(#smd)" stroke="url(#smd)"/>
+   <path d="m-21.87 186.44 37.93-48.237 11.856 1.4306-44.44 56.516z" fill="url(#smh)" stroke="url(#smh)"/>
+   <path d="m16.061 138.2 11.856 1.4306-16.478-69.982-9.4425 8.8207z" fill="url(#smg)" stroke="url(#smg)"/>
+   <path d="m-53.549 38.901 64.988 30.75-9.4425 8.8207-55.468-26.245z" fill="url(#smf)" stroke="url(#smf)"/>
+  </g>
+ </g>
+</svg>
