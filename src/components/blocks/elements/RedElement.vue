@@ -12,7 +12,7 @@ function onBlockTouch() {
     // console.log("block touch : ", window.getComputedStyle(root.value).backgroundColor);
     if (window.getComputedStyle(root.value).backgroundColor == "rgb(159, 19, 19)") {
         // console.log("lose : ");
-        // hasLose.value = true;
+        hasLose.value = true;
     }
     requestAnimationFrame(onBlockTouch);
 }
