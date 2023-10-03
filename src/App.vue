@@ -7,7 +7,8 @@ import { useDisableContextMenu } from './composables/useDisableContextMenu';
 import { useSimulateMouseMoveOnscroll } from './composables/useSimulateMouseMoveOnscroll';
 import { useLoseOnWindowLeave } from './composables/useLoseOnWindowLeave';
 import WinDialog from './components/WinDialog.vue';
-// useDisableContextMenu();
+
+useDisableContextMenu();
 useSimulateMouseMoveOnscroll();
 useLoseOnWindowLeave();
 

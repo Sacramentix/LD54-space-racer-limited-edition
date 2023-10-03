@@ -1,8 +1,9 @@
 import { onMounted, onUnmounted } from "vue";
+import { gameStarted } from "./gameState";
 
 export function useDisableContextMenu() {
     function disableContextMenu(e:MouseEvent) {
-        e.preventDefault();    
+        if(gameStarted.value) e.preventDefault();  
     }
 
     onMounted(() => {
