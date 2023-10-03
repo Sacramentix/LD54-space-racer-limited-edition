@@ -16,6 +16,7 @@ type LoseReason = typeof LoseReasons[number];
 export const loseReason = ref<LoseReason>("hitRedBlock");
 
 export function lose(reason:LoseReason) {
+    if (!gameStarted.value) return;
     if (hasWin.value) return;
     loseReason.value = reason;
     hasLose.value = true;
