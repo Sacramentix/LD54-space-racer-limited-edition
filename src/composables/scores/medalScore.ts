@@ -18,6 +18,12 @@ export const scoresBySeed:Record<string, {
         silver: "01:00",
         gold: "00:40",
         author: "00:35.865",
+    },
+    "2023/10/04": {
+        bronze: "02:45",
+        silver: "01:20",
+        gold: "00:50",
+        author: "00:40.579",
     }
 }
 
